@@ -1,0 +1,497 @@
+/* General body styling */
+body {
+    overflow-x: hidden;
+}
+.Img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 7px;
+}
+.unibox1 {
+    border-bottom: 2px dotted black;
+}
+hr {
+    width: 40%;
+}
+.navbar-scrolled {
+    background-color: #f3f1fc !important;
+    box-shadow: 0 3px 10px #504bd6 !important;
+}
+
+/* Navbar font styling */
+.navbar {
+    font-size: 20px; /* Adjust the font size */
+    font-weight: bold;
+}
+
+/* Navigation link hover animation */
+.nav-link {
+    position: relative;
+    color: #504bd6; /* Change this to the color of your choice */
+    text-decoration: none;
+    padding: 8px 0;
+    font-weight: bold;
+    transition: color 0.4s ease;
+}
+/* Default (no hover underline on small devices) */
+.hh::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #504bd6; /* Color for underline */
+    transition: width 0.7s ease;
+    border-radius: 12px;
+}
+
+/* Hover effect for nav links */
+.hh:hover {
+    color: #504bd6; /* Color on hover */
+}
+
+/* Expands underline on hover, only for laptop view and larger */
+@media (min-width: 1024px) { /* Adjust '1024px' as per your requirement */
+    .hh:hover::before {
+        width: 100%; /* Expands underline on hover */
+    }
+}
+/* Default styles */
+.dd {
+    display: inline-block;
+    background-color: #504bd6; /* Background color */
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px; /* Default padding */
+}
+
+/* Adjust for small devices */
+@media (max-width: 767px) { /* Target small devices */
+    .dd {
+        background-color: #FFFFFF;
+        display: inline-block;
+        width: auto; /* Adjust background width */
+        padding: 5px 10px; /* Smaller padding for compact size */
+        margin: 0 auto; /* Center the button horizontally */
+    }
+}
+.dropdown-menu{
+    background-color: #504bd6;
+}
+.dropdown-menu .dropdown-item{
+    color:white;
+}
+.dropdown-menu .dropdown-item:hover{
+   background-color: #504bd6;
+}
+/*nav end*/
+#userid {
+    background-color: #cccaff;
+    border-radius: 10px;
+    background-size: auto;
+    color: #504bd6;
+  }
+  .profile {
+    position:relative;
+  }
+  .aside {
+    position:absolute;
+    left:-100%;
+  }
+h2{
+    color: #504bd6;
+}
+
+/* new css */
+.subject-card h3{
+    display:inline;
+    margin-left: 7px;
+    
+}
+.subject-card img{
+    width:60px;
+    height:60px;
+    margin-top: 10px;
+}
+/* new css */
+
+.subject-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    height:240px;
+
+}
+.subject-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.subject-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px #504bd6;
+}
+
+.box {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    margin-left: 3%;
+    background-color: #504bd6;
+}
+
+.icon {
+    font-size: 35px;
+    color: aliceblue
+}
+.card-img {
+    height: 300px;
+}
+.card-title{
+    color: #ffffff;
+    font-size: 25px;;
+}
+.btn {
+    background-color: #504bd6; 
+    color: #ffffff; 
+    border-radius: 5px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9d9af6;
+    color: black;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slide-row{
+    width: 100%;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.container2{
+    position: relative;
+    width: 65%;
+    height: 350px;
+    background-color: #7571ea;
+    border-radius: 5px;
+    border: 3px solid #a9a7e4;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+.container2 .slides-row{
+    display: flex;
+    height: 90%;
+}
+.container2 .slides-row .slide{
+    min-width: 100%;
+}
+.container2 .slides-row .sldie img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5p 5px 0px 0px;
+    object-fit: cover;
+}
+.container2 span.next, .container2 span.prev{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 12px 16px;
+    color: #eee;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.5s;
+    border-radius: 3px;
+    user-select: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.container2 span.next{
+    right: 10px;
+}
+.container2 span.prev{
+    left: 10px;
+}
+.container2 span.next:hover, .container2 span.prev:hover{
+    background-color: #504bd6;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+.container2 .dots{
+    position: absolute;
+    bottom: 5px;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container2 .dots .dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 3px solid #a9a7e4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.container2 .dots .active{
+    background-color: #504bd6;
+}
+.text-gray-shadow {
+    color: rgb(196, 196, 196);
+    text-shadow: 5px 5px 3px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+.carousel-item img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #504bd6
+}
+
+.scholar-carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.scholar-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.scholar-carousel-item {
+    min-width: 100%;
+}
+
+.scholar-carousel-item img {
+    width: 100%;
+    height: 350px;
+    display: block;
+    border-radius: 10px;
+}
+
+.scholar-carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scholar-carousel-control.prev {
+    left: 10px;
+}
+
+.scholar-carousel-control.next {
+    right: 10px;
+}
+
+.scholar-carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.scholar-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scholar-dot.active {
+    background:#504bd6;
+}
+ /*footer start*/
+ footer {  
+    background: #504bd6;  
+    color: white;  
+    margin-top:40px;
+}  
+footer a {  
+    color: #fff;  
+    font-size: 14px; 
+    text-decoration: none;  
+}  
+footer a:hover{
+    color: #bcc7ca;
+}
+ul.social-network {  
+    list-style: none;  
+    display: inline;  
+    margin-left: 0;  
+    padding: 0;  
+}  
+ul.social-network li {  
+    display: inline;  
+    margin: 0 5px;  
+}  
+.social-network a {  
+    background-color: #F9F9F9;  
+}  
+.bi{
+    font-size: 25px;
+}
+.copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #FFFFFF;  
+}  
+.text-center{
+    font-size: 16px;
+}
+/* Media query for small devices */
+@media (max-width: 767px) {
+/* Center-align the social icons */
+    footer ul.social-network {
+        text-align: center;
+    }
+
+/* Center-align the h3 headings */
+    footer h4 {
+        text-align: center;
+    }
+
+/* Center-align the <a> tags within <li> elements */
+    footer ul.list-unstyled li {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+/* Apply text-align: center; to list-inline in the footer */
+    footer .list-inline {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .footer-pad img {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+/*footer end*/
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*go to top*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #c2bff4;
+    color: #504bd6;
+    cursor: pointer;
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+  }
+  
+  #myBtn:hover {
+      background-color: #abacfd;
+  }
+  /**/
+footer {
+    width: 100vw; /* Use percentage instead of viewport width */
+    margin: 0 auto; /* Center the footer */
+    position: relative; /* If it overlaps, use absolute */
+  }
+

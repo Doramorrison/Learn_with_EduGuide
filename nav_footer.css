@@ -1,0 +1,141 @@
+ 
+.navbar-scrolled {
+    background-color: #f3f1fc !important;
+    box-shadow: 0 3px 10px #504bd6 !important;
+}
+
+/* Navbar font styling */
+.navbar {
+    font-size: 20px; /* Adjust the font size */
+    font-weight: bold;
+}
+
+/* Navigation link hover animation */
+.nav-link {
+    position: relative;
+    color: #504bd6; /* Change this to the color of your choice */
+    text-decoration: none;
+    padding: 8px 0;
+    font-weight: bold;
+    transition: color 0.4s ease;
+}
+
+.hh::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #504bd6; /* Color for underline */
+    transition: width 0.7s ease;
+    border-radius: 12px;
+}
+
+/* Default (no hover underline on small devices) */
+.hh::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #504bd6; /* Color for underline */
+    transition: width 0.7s ease;
+    border-radius: 12px;
+  }
+  
+  /* Hover effect for nav links */
+  .hh:hover {
+    color: #504bd6; /* Color on hover */
+  }
+  
+  /* Expands underline on hover, only for laptop view and larger */
+  @media (min-width: 1024px) { /* Adjust '1024px' as per your requirement */
+    .hh:hover::before {
+        width: 100%; /* Expands underline on hover */
+    }
+  }
+
+/* Default styling for margin-top */
+.col-xl-6 {
+    margin-top: 0; /* No margin by default */
+}
+
+/* Media query for extra-large screens (laptops) */
+@media (min-width: 1200px) {
+    .col-xl-6 {
+        margin-top: 10px; /* Apply margin-top of 150px for extra-large screens */
+    }
+}
+
+ /*footer start*/
+ footer {  
+    background: #504bd6;  
+    color: white;  
+    margin-top:40px;
+   
+}  
+footer a {  
+    color: #fff;  
+    font-size: 14px; 
+    text-decoration: none;  
+}  
+footer a:hover{
+    color: #bcc7ca;
+}
+ul.social-network {  
+    list-style: none;  
+    display: inline;  
+    margin-left: 0;  
+    padding: 0;  
+}  
+ul.social-network li {  
+    display: inline;  
+    margin: 0 5px;  
+}  
+.social-network a {  
+    background-color: #F9F9F9;  
+}  
+.bi{
+    font-size: 25px;
+}
+.copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #FFFFFF;  
+}  
+.text-center{
+    font-size: 16px;
+}
+/* Media query for small devices */
+@media (max-width: 767px) {
+/* Center-align the social icons */
+    footer ul.social-network {
+        text-align: center;
+    }
+
+/* Center-align the h3 headings */
+    footer h4 {
+        text-align: center;
+    }
+
+/* Center-align the <a> tags within <li> elements */
+    footer ul.list-unstyled li {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+/* Apply text-align: center; to list-inline in the footer */
+    footer .list-inline {
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .footer-pad img {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+/*footer end*/

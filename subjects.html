@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduGuide | Subjects</title>
+    <link rel="icon" href="image/image (44).png" sizes="16x16">
+     <!-- Bootstrap CDN Link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <!-- Bootstrap Icon CDN Link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="subjects.css">
+    <link rel="stylesheet" href="nav_footer.css">    
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mb-5">
+        <!-- offcanvas button -->
+        <a class="menu ms-3" data-bs-toggle="offcanvas" href="#offcanvas_id" role="button" >
+            <span>Menu</span><i class="bi bi-caret-down-fill" style="color: black;font-size: 15px;"></i>
+        </a>
+        <!-- Navbar as logo -->
+        <a class="navbar-brand ms-3" href="#"><img src="image/logo.png" alt="#" height="50px"></a>
+        <!-- Toggle button -->
+        <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- nav items container -->
+        <div class="collapse navbar-collapse ms-3" id="navbar">
+        <ul class="navbar-nav ">
+            <li class="nav-item"><a href="userpage.html" class="nav-link hh">Home</a></li>
+            <li class="nav-item"><a href="about1.html" class="nav-link hh">About</a></li>
+            <li class="nav-item"><a href="subjects.html" class="nav-link hh">IGCSE Subjects</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle hh"
+                    data-bs-toggle="dropdown">Services</a>
+                <ul class="dropdown-menu">
+                    <li><a href="career.html" class="dropdown-item">Careers</a></li>
+                    <li><a href="career_test.html" class="dropdown-item">Careers Test</a></li>
+                    <li><a href="tips.html" class="dropdown-item">Preparing for exam</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item dropdown profile"><a id="userid" href="#" class="nav-link dropdown-toggle dd"
+                    data-bs-toggle="dropdown"></a>
+                <ul class="dropdown-menu aside">
+                    <li><a class="dropdown-item" href="index.html" id="logout"><i class="bi bi-box-arrow-right" style="font-size: 15px;color: white;"></i> Log out</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>       
+      </nav>
+     <!-- Sidebar -->
+     <div class="sidebar">
+        <div class="list">
+        <ul class="flex-column nav">
+                <li style="font-size: 28px; font-weight: bold;margin-top: 20px;">IGCSE SUBJECTS</li>
+                <hr>
+                <li style="font-size: large; font-weight: bold;">Core subjects</li>
+                <li class="Subhr"><hr></li>
+                <li class="nav-item"><a href="#t1" class="nav-link active" data-bs-toggle="tab">English</a></li>
+                <li class="nav-item"><a href="#t2" class="nav-link" data-bs-toggle="tab">Mathematics</a></li>
+                <li class="nav-item"><a href="#t3" class="nav-link" data-bs-toggle="tab">Science</a></li>
+                <hr>
+                <li style="font-size: large; font-weight: bold;">Elective subjects</li>
+                <hr>
+                <li class="nav-item"><a href="#t4" class="nav-link" data-bs-toggle="tab">Business Studies</a></li>
+                <li class="nav-item"><a href="#t5" class="nav-link" data-bs-toggle="tab">Economics</a></li>
+                <li class="nav-item"><a href="#t6" class="nav-link" data-bs-toggle="tab">Accounting</a></li>
+                <li class="nav-item"><a href="#t7" class="nav-link " data-bs-toggle="tab">ICT</a></li>
+                <li class="nav-item"><a href="#t8" class="nav-link" data-bs-toggle="tab">Computer Science</a></li>
+                <li class="nav-item"><a href="#t9" class="nav-link" data-bs-toggle="tab">Geography</a></li>
+                <li class="nav-item"><a href="#t10" class="nav-link" data-bs-toggle="tab">History</a></li>
+                <li class="nav-item"><a href="#t11" class="nav-link " data-bs-toggle="tab">Sociology</a></li>
+                <li class="nav-item"><a href="#t12" class="nav-link" data-bs-toggle="tab">Psychology</a></li>
+                <li class="nav-item"><a href="#t13" class="nav-link" data-bs-toggle="tab">Global Perspectives</a></li>
+                <li class="nav-item"><a href="#t14" class="nav-link " data-bs-toggle="tab">Art and Design</a></li>
+                <li class="nav-item"><a href="#t15" class="nav-link " data-bs-toggle="tab">Music</a></li>
+        </ul>
+        </div>
+        <div class="footer">
+            <br><br><br>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div class="content">
+        <div class=" tab-content">
+        <!-- English (EFL & ESL) -->
+            <div class="tab-pane active" id="t1">
+                <div class="row">
+                    
+                    <div class="col-12">
+                        <h1 class="s1">English</h1>
+                        <p class="s2">The IGCSE English curriculum is designed to improve students' language skills, both for those studying English as a Foreign Language (EFL) and as a Second Language (ESL). It focuses on reading, writing, speaking, and listening, helping students communicate effectively and gain a deeper understanding of the English language. The course emphasizes critical thinking, creativity, and the analysis of different types of texts.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-book-open " style="padding-left: 5px; padding-right: 10px;"></i>English as a Foreign Language (EFL) </p>
+                        <p>EFL students focus on developing the core skills of reading, writing, speaking, and listening in English. The course builds proficiency for those whose first language is not English, with an emphasis on practical language usage, vocabulary, and grammar. It helps students prepare for communication in everyday contexts and in academic settings.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-book" style="padding-left: 5px; padding-right: 10px;"></i>English as a Second Language (ESL)</p>
+                        <p>ESL students, whose first language is not English, learn to use English effectively in both academic and social contexts. The focus is on improving fluency and comprehension, enhancing vocabulary, and using English for communication in real-life situations, such as discussions, presentations, and written tasks. The ESL course supports students in improving their language skills to meet the demands of academic study and further education.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-pen-nib" ></i>Literature Studies</p>
+                        <p>Both EFL and ESL students study a range of literary texts, including novels, plays, and poetry. This helps develop their ability to interpret and analyze themes, characters, and the structure of different works. Students will explore both classical and modern texts, enriching their understanding of diverse cultures and perspectives.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-paperclip"></i>Writing Skills</p>
+                        <p>Writing skills are a crucial part of the course, focusing on the ability to write clear and structured essays, reports, and creative pieces. Both EFL and ESL students are taught how to organize ideas effectively, use appropriate language, and convey meaning with clarity and precision in their written work.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-ear-listen"></i>Speaking and Listening</p>
+                        <p>The speaking and listening component helps students improve their ability to participate in discussions, give presentations, and engage with others in English. It develops confidence in spoken communication and strengthens listening comprehension, skills that are vital for academic success and daily life.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mathematics -->
+            <div class="tab-pane" id="t2">
+                <div class="row">
+                    
+                    <div class="col-12">
+                        <h1 class="s1">Mathematics</h1>
+                        <p class="s2">The IGCSE Mathematics curriculum offers a range of courses designed to suit different student abilities. The courses provide a solid foundation in mathematical concepts while encouraging logical reasoning, problem-solving, and analytical thinking. Whether pursuing **Mathematics Extended**, **Additional Mathematics**, or exploring various mathematics course options, students will develop a strong understanding of both abstract and applied mathematics.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-not-equal"></i>Mathematics Extended</p>
+                        <p>Mathematics Extended is a program that builds on the standard IGCSE mathematics framework by adding more advanced topics and mathematical skills. This course is designed for students who are academically strong and want to pursue higher education or professional training in fields requiring a strong mathematical foundation. It covers topics such as algebra, geometry, trigonometry, calculus, and probability, offering a more in-depth exploration of mathematics.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-draw-polygon"></i>Mathematics Additional</p>
+                        <p>Mathematics Additional is an advanced mathematics course that encourages learners to develop their mathematical ability, particularly in problem-solving. It offers strong progression for students intending to study mathematics or numerate subjects at a higher level, including university mathematics, physics, and engineering. Topics include complex numbers, matrices, and more in-depth calculus and algebra.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-chart-column"></i>Mathematics A & B</p>
+                        <p>IGCSE Mathematics offers different course options, such as **Mathematics A** and **Mathematics B**, designed to cater to varying levels of mathematical ability. **Mathematics A** covers a broad spectrum of topics aimed at students aiming for a general understanding of mathematics, while **Mathematics B** is a more specialized course, often for students pursuing higher-level studies in numerate disciplines. These courses include a combination of algebra, geometry, statistics, and probability, tailored to suit the interests and academic strengths of the students.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-chart-line"></i>Future Mathematics</p>
+                        <p>The future of IGCSE Mathematics lies in specialized pathways that connect students with future studies in mathematics, engineering, economics, and other science-related fields. Students with a strong grasp of mathematics can move forward into **Advanced Mathematics** or specialized university-level programs in mathematics, actuarial science, statistics, and engineering.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Science -->
+            <div class="tab-pane" id="t3">
+                <div class="row">
+                   
+                    <div class="col-12 ">
+                        <h1 class="s1">Science</h1>
+                        <p class="s2">IGCSE Science is a comprehensive course that includes the study of Biology, Chemistry, and Physics. The goal is to develop scientific skills through practical experiments and theoretical learning, preparing students for further study in the sciences or other related fields.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-leaf"></i>Biology</p>
+                        <p>Biology focuses on the study of living organisms, from cells to ecosystems. Students will explore topics such as genetics, evolution, and human health, providing insights into the natural world and biological processes.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-flask"></i>Chemistry</p>
+                        <p>Chemistry covers the properties of matter, chemical reactions, and the structure of atoms and molecules. It plays a key role in industries like medicine, agriculture, and environmental science.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-bolt"></i>Physics</p>
+                        <p>Physics explores the laws of nature, focusing on concepts like energy, forces, motion, and waves. The course provides an understanding of the physical world and lays the foundation for engineering and technology studies.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Business Studies -->
+            <div class="tab-pane" id="t4">
+                <div class="row">
+                   
+                    <div class="col-12 ">
+                        <h1 class="s1">Business Studies</h1>
+                        <p class="s2">Business Studies involves the study of business principles, management practices, and entrepreneurship. It helps students understand how businesses operate, make decisions, and respond to market demands. It also focuses on financial management, marketing, human resources, and strategic planning.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-building"></i>Business Environment</p>
+                        <p>Business Environment looks at the factors that influence business activities, including economic, legal, social, and technological factors. It helps students understand how businesses operate within a dynamic environment.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-lightbulb"></i>Marketing</p>
+                        <p>Marketing focuses on the strategies businesses use to attract and retain customers. Topics include market research, product development, pricing strategies, advertising, and digital marketing.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-chart-pie"></i>Finance</p>
+                        <p>Finance covers topics such as budgeting, financial statements, profitability analysis, and investment decisions. It teaches students how businesses manage their financial resources and make sound financial decisions.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-regular fa-clipboard"></i>Human Resources</p>
+                        <p>Human Resources focuses on managing employees, including recruitment, training, performance management, and employee relations. It is crucial for ensuring that businesses have a skilled and motivated workforce.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Economics -->
+            <div class="tab-pane" id="t5">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Economics</h1>
+                        <p class="s2">Economics is the study of how individuals, businesses, and governments make choices to allocate resources. It explores topics like supply and demand, inflation, unemployment, economic growth, and international trade, providing insight into how economies function.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-money-bill-1"></i>Microeconomics</p>
+                        <p>Microeconomics studies individual economic agents like consumers and firms, focusing on decision-making, market structures, and pricing mechanisms. It helps explain how resources are allocated in small-scale economies.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-square-poll-vertical"></i>Macroeconomics</p>
+                        <p>Macroeconomics looks at the economy as a whole, addressing topics like national income, inflation, unemployment, and government policy. It helps us understand the larger economic forces at work in a country or region.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-dolly"></i>International Trade</p>
+                        <p>International trade focuses on the exchange of goods and services between countries. It examines trade policies, global markets, and the factors that influence global trade relations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accounting -->
+            <div class="tab-pane" id="t6">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Accounting</h1>
+                        <p class="s2">Accounting is the study of financial record-keeping, including the process of tracking income, expenses, and other financial activities. It involves preparing financial statements, analyzing business performance, and making decisions based on financial data.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-file-invoice-dollar"></i>Financial Statements</p>
+                        <p>Financial statements are reports that show the financial health of a business. They include the balance sheet, income statement, and cash flow statement, which help businesses and investors make informed decisions.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-money-bill-wave"></i>Budgeting</p>
+                        <p>Budgeting is the process of planning how a business will allocate its financial resources. It helps ensure that a business can meet its financial goals while avoiding overspending or waste.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-briefcase"></i>Taxation</p>
+                        <p>Taxation involves understanding the laws and rules surrounding taxes. It includes calculating taxes owed, preparing tax returns, and ensuring compliance with local and national tax regulations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ICT -->
+            <div class="tab-pane" id="t7">
+                <div class="row">
+                  
+                    <div class="col-12">
+                        <h1 class="s1">ICT</h1>
+                        <p class="s2">ICT (Information and Communication Technology) is the study of how computers and technology are used to create, store, and communicate information. It covers topics like computer hardware and software, digital communications, databases, and web development.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-desktop"></i>Hardware and Software</p>
+                        <p>ICT covers the components of a computer system, including the hardware (physical parts) and software (programs) that enable computers to function. Understanding these is essential for troubleshooting and improving computer performance.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-gear"></i>Web Development</p>
+                        <p>Web development involves creating websites and web applications using languages like HTML, CSS, and JavaScript. It includes design, layout, and functionality, as well as creating interactive and user-friendly interfaces.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-bars-progress"></i>Databases</p>
+                        <p>Databases are systems used to store and manage data. ICT students learn how to create, modify, and query databases to organize information and make it easily accessible and searchable.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Computer Science -->
+            <div class="tab-pane" id="t8">
+                <div class="row">
+                  
+                    <div class="col-12">
+                        <h1 class="s1">Computer Science</h1>
+                        <p class="s2">Computer Science is the study of algorithms, programming languages, software development, and the theory behind computers and computation. It focuses on designing efficient systems and solving complex problems using computing methods.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-screwdriver-wrench"></i>Programming</p>
+                        <p>Programming is at the heart of Computer Science. It involves writing code to create software, applications, and websites. Students learn languages such as Python, Java, and C++ to develop algorithms and solve problems.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-brain"></i>Algorithms</p>
+                        <p>Algorithms are step-by-step procedures for solving problems. Computer Science students learn how to design and analyze algorithms for efficiency and correctness, which is crucial for tasks like searching, sorting, and data processing.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-link"></i>Networks</p>
+                        <p>Networks involve connecting computers and devices to share information. Students learn about network protocols, security, and how data is transmitted across the internet and local area networks (LANs).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Geography -->
+            <div class="tab-pane" id="t9">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Geography</h1>
+                        <p class="s2">Geography is the study of the Earth's physical features, the environment, and human activity. It examines how humans interact with the land and how factors like climate, population, and resources affect the world.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-mountain"></i>Physical Geography</p>
+                        <p>Physical Geography focuses on the Earth's natural features, such as mountains, rivers, weather patterns, and ecosystems. It helps us understand the forces that shape the Earth's surface and how these affect human activities.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-person"></i>Human Geography</p>
+                        <p>Human Geography looks at how human societies interact with the environment. Topics include urbanization, migration, population growth, and the distribution of resources and wealth.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-tree"></i>Environmental Issues</p>
+                        <p>Environmental issues examine the impact of human activity on the planet. Topics include climate change, deforestation, pollution, and sustainable development, emphasizing the importance of protecting the Earth's resources.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- History -->
+            <div class="tab-pane" id="t10">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">History</h1>
+                        <p class="s2">History is the study of past events and their impact on the present and future. It explores major events, figures, and movements that shaped the world we live in today.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-mortar-pestle"></i>Ancient Civilizations</p>
+                        <p>Ancient civilizations like Mesopotamia, Egypt, and Rome played a major role in shaping human culture. History students explore the development of these societies, their achievements, and their legacies.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-robot"></i>Modern History</p>
+                        <p>Modern History covers events from the Renaissance to the present day, including the rise and fall of empires, the World Wars, and the social and political changes of the 20th century.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-file-invoice"></i>Historical Sources</p>
+                        <p>History involves analyzing primary and secondary sources to understand past events. Students learn how to interpret documents, artifacts, and oral histories to gain insights into historical periods.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sociology -->
+            <div class="tab-pane" id="t11">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Sociology</h1>
+                        <p class="s2">Sociology is the study of society, social behavior, and the interactions between individuals and groups. It helps us understand how social institutions, such as family, education, and media, shape our lives.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-school"></i>Social Institutions</p>
+                        <p>Social institutions, such as family, education, and religion, play a significant role in shaping behavior and beliefs. Sociology students examine how these institutions influence individuals and groups in society.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-scale-balanced"></i>Social Issues</p>
+                        <p>Sociology also focuses on social issues like poverty, inequality, and crime. Students study how these problems arise, how society responds, and what solutions can be implemented.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-magnifying-glass"></i>Social Theory</p>
+                        <p>Social theory helps explain the dynamics of society. Sociologists study theorists like Karl Marx, Max Weber, and Emile Durkheim to understand how social structures influence behavior and societal change.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Psychology -->
+            <div class="tab-pane" id="t12">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Psychology</h1>
+                        <p class="s2">Psychology is the study of the mind, behavior, and mental processes. It helps us understand why people think, feel, and act the way they do, exploring topics like cognition, emotion, development, and mental health.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-brain"></i>Cognitive Psychology</p>
+                        <p>Cognitive Psychology explores mental processes like perception, memory, and problem-solving. It helps us understand how we process information and make decisions.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-puzzle-piece"></i>Developmental Psychology</p>
+                        <p>Developmental Psychology studies how people change and grow throughout their lives, focusing on cognitive, emotional, and social development from childhood to adulthood.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-triangle-exclamation"></i>Abnormal Psychology</p>
+                        <p>Abnormal Psychology focuses on understanding mental disorders and abnormal behavior. It looks at the causes, symptoms, and treatments for conditions like depression, anxiety, and schizophrenia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Global Perspectives -->
+            <div class="tab-pane" id="t13">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Global Perspectives</h1>
+                        <p class="s2">Global Perspectives is an interdisciplinary subject that explores global issues from multiple viewpoints. It encourages students to develop critical thinking skills and understand the interconnectedness of the world.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-book-atlas"></i>Global Issues</p>
+                        <p>Global Issues examines topics like poverty, inequality, environmental sustainability, and human rights. Students learn about the causes, impacts, and potential solutions to these challenges.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-street-view"></i>Cultural Perspectives</p>
+                        <p>Cultural Perspectives explores how different cultures view and respond to global issues. Students examine the impact of cultural beliefs, values, and practices on global problems.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-brain"></i>Critical Thinking</p>
+                        <p>Critical thinking is key to Global Perspectives. Students learn how to analyze information, evaluate sources, and form reasoned opinions on global issues.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Art and Design -->
+            <div class="tab-pane" id="t14">
+                <div class="row">
+                   
+                    <div class="col-12">
+                        <h1 class="s1">Art and Design</h1>
+                        <p class="s2">Art and Design involves the creative process of producing visual works that communicate ideas, emotions, and perspectives. It helps students develop technical skills in drawing, painting, sculpture, and digital media.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-marker"></i>Visual Art</p>
+                        <p>Visual Art focuses on creating artwork through mediums like painting, sculpture, and photography. Students explore different styles and techniques to express their creativity.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-wand-magic-sparkles"></i>Design</p>
+                        <p>Design involves creating functional and aesthetic products, including graphic design, product design, and architecture. Students learn to balance creativity with practicality in their design work.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-mobile-screen-button"></i>Digital Media</p>
+                        <p>Digital Media encompasses the use of digital tools and technologies to create visual content. Students learn to use software like Photoshop and Illustrator to create digital art, animations, and multimedia projects.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Music-->
+            <div class="tab-pane" id="t15">
+                <div class="row">
+                    
+                    <div class="col-12">
+                        <h1 class="s1">Music</h1>
+                        <p class="s2">IGCSE Music is a creative and expressive course where students explore the elements of music and develop performance and composition skills. The course covers a wide range of musical styles, enhancing students' appreciation of music from different cultures and time periods.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-masks-theater"></i>Performance</p>
+                        <p>Performance focuses on developing students' skills in playing musical instruments or singing. Students will prepare and perform pieces of music, either as solo performers or as part of a group.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-music"></i>Composition</p>
+                        <p>Composition involves creating original pieces of music, allowing students to experiment with different musical styles and techniques. It helps develop creativity and critical thinking in music-making.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-ear-listen"></i><i class="fa-solid fa-chart-line"></i>Listening and Analysis</p>
+                        <p>Listening and analysis enables students to explore music from various genres, understanding its structure, instrumentation, and emotional impact. It helps students appreciate music on a deeper level and develop their analytical skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" id="offcanvas_id" style="width:200px;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">IGCSE SUBJECTS</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" ></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="flex-column nav ">
+            <hr>
+                <li>Core subjects</li>
+                <hr>
+                <li class="nav-item"><a href="#ot1" class="nav-link active" data-bs-toggle="tab">English</a></li>
+                <li class="nav-item"><a href="#ot2" class="nav-link" data-bs-toggle="tab">Mathematics</a></li>
+                <li class="nav-item"><a href="#ot3" class="nav-link" data-bs-toggle="tab">Science</a></li>
+                <hr>
+                <li>Elective subjects</li>
+                <hr>
+                <li class="nav-item"><a href="#ot4" class="nav-link" data-bs-toggle="tab">Business Studies</a></li>
+                <li class="nav-item"><a href="#ot5" class="nav-link" data-bs-toggle="tab">Economics</a></li>
+                <li class="nav-item"><a href="#ot6" class="nav-link" data-bs-toggle="tab">Accounting</a></li>
+                <li class="nav-item"><a href="#ot7" class="nav-link " data-bs-toggle="tab">ICT</a></li>
+                <li class="nav-item"><a href="#ot8" class="nav-link" data-bs-toggle="tab">Computer Science</a></li>
+                <li class="nav-item"><a href="#ot9" class="nav-link" data-bs-toggle="tab">Geography</a></li>
+                <li class="nav-item"><a href="#ot10" class="nav-link" data-bs-toggle="tab">History</a></li>
+                <li class="nav-item"><a href="#ot11" class="nav-link " data-bs-toggle="tab">Sociology</a></li>
+                <li class="nav-item"><a href="#ot12" class="nav-link" data-bs-toggle="tab">Psychology</a></li>
+                <li class="nav-item"><a href="#ot13" class="nav-link" data-bs-toggle="tab">Global Perspectives</a></li>
+                <li class="nav-item"><a href="#ot14" class="nav-link " data-bs-toggle="tab">Art and Design</a></li>
+                <li class="nav-item"><a href="#ot15" class="nav-link " data-bs-toggle="tab">Music</a></li>
+            </ul>
+        
+        </div>                
+    </div>
+    <div class="container">
+    <div class="tab-content offcanvas_tab_content">
+        <!-- English (EFL & ESL) -->
+        <div class="tab-pane active" id="ot1">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">English</h1>
+                    <p class="s2">The IGCSE English curriculum is designed to improve students' language skills, both for those studying English as a Foreign Language (EFL) and as a Second Language (ESL). It focuses on reading, writing, speaking, and listening, helping students communicate effectively and gain a deeper understanding of the English language. The course emphasizes critical thinking, creativity, and the analysis of different types of texts.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-book-open " style="padding-left: 5px; padding-right: 10px;"></i>English as a Foreign Language (EFL) </p>
+                    <p>EFL students focus on developing the core skills of reading, writing, speaking, and listening in English. The course builds proficiency for those whose first language is not English, with an emphasis on practical language usage, vocabulary, and grammar. It helps students prepare for communication in everyday contexts and in academic settings.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-book" style="padding-left: 5px; padding-right: 10px;"></i>English as a Second Language (ESL)</p>
+                    <p>ESL students, whose first language is not English, learn to use English effectively in both academic and social contexts. The focus is on improving fluency and comprehension, enhancing vocabulary, and using English for communication in real-life situations, such as discussions, presentations, and written tasks. The ESL course supports students in improving their language skills to meet the demands of academic study and further education.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-pen-nib" ></i>Literature Studies</p>
+                    <p>Both EFL and ESL students study a range of literary texts, including novels, plays, and poetry. This helps develop their ability to interpret and analyze themes, characters, and the structure of different works. Students will explore both classical and modern texts, enriching their understanding of diverse cultures and perspectives.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-paperclip"></i>Writing Skills</p>
+                    <p>Writing skills are a crucial part of the course, focusing on the ability to write clear and structured essays, reports, and creative pieces. Both EFL and ESL students are taught how to organize ideas effectively, use appropriate language, and convey meaning with clarity and precision in their written work.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-ear-listen"></i>Speaking and Listening</p>
+                    <p>The speaking and listening component helps students improve their ability to participate in discussions, give presentations, and engage with others in English. It develops confidence in spoken communication and strengthens listening comprehension, skills that are vital for academic success and daily life.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mathematics -->
+        <div class="tab-pane" id="ot2">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Mathematics</h1>
+                    <p class="s2">The IGCSE Mathematics curriculum offers a range of courses designed to suit different student abilities. The courses provide a solid foundation in mathematical concepts while encouraging logical reasoning, problem-solving, and analytical thinking. Whether pursuing **Mathematics Extended**, **Additional Mathematics**, or exploring various mathematics course options, students will develop a strong understanding of both abstract and applied mathematics.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-not-equal"></i>Mathematics Extended</p>
+                    <p>Mathematics Extended is a program that builds on the standard IGCSE mathematics framework by adding more advanced topics and mathematical skills. This course is designed for students who are academically strong and want to pursue higher education or professional training in fields requiring a strong mathematical foundation. It covers topics such as algebra, geometry, trigonometry, calculus, and probability, offering a more in-depth exploration of mathematics.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-draw-polygon"></i>Mathematics Additional</p>
+                    <p>Mathematics Additional is an advanced mathematics course that encourages learners to develop their mathematical ability, particularly in problem-solving. It offers strong progression for students intending to study mathematics or numerate subjects at a higher level, including university mathematics, physics, and engineering. Topics include complex numbers, matrices, and more in-depth calculus and algebra.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-chart-column"></i>Mathematics A & B</p>
+                    <p>IGCSE Mathematics offers different course options, such as **Mathematics A** and **Mathematics B**, designed to cater to varying levels of mathematical ability. **Mathematics A** covers a broad spectrum of topics aimed at students aiming for a general understanding of mathematics, while **Mathematics B** is a more specialized course, often for students pursuing higher-level studies in numerate disciplines. These courses include a combination of algebra, geometry, statistics, and probability, tailored to suit the interests and academic strengths of the students.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-chart-line"></i>Future Mathematics</p>
+                    <p>The future of IGCSE Mathematics lies in specialized pathways that connect students with future studies in mathematics, engineering, economics, and other science-related fields. Students with a strong grasp of mathematics can move forward into **Advanced Mathematics** or specialized university-level programs in mathematics, actuarial science, statistics, and engineering.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Science -->
+        <div class="tab-pane" id="ot3">
+            <div class="row">
+                <div class="col-12 ">
+                    <h1 class="s1">Science</h1>
+                    <p class="s2">IGCSE Science is a comprehensive course that includes the study of Biology, Chemistry, and Physics. The goal is to develop scientific skills through practical experiments and theoretical learning, preparing students for further study in the sciences or other related fields.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-leaf"></i>Biology</p>
+                    <p>Biology focuses on the study of living organisms, from cells to ecosystems. Students will explore topics such as genetics, evolution, and human health, providing insights into the natural world and biological processes.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-flask"></i>Chemistry</p>
+                    <p>Chemistry covers the properties of matter, chemical reactions, and the structure of atoms and molecules. It plays a key role in industries like medicine, agriculture, and environmental science.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-bolt"></i>Physics</p>
+                    <p>Physics explores the laws of nature, focusing on concepts like energy, forces, motion, and waves. The course provides an understanding of the physical world and lays the foundation for engineering and technology studies.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Business Studies -->
+        <div class="tab-pane" id="ot4">
+            <div class="row">
+                <div class="col-12 ">
+                    <h1 class="s1">Business Studies</h1>
+                    <p class="s2">Business Studies involves the study of business principles, management practices, and entrepreneurship. It helps students understand how businesses operate, make decisions, and respond to market demands. It also focuses on financial management, marketing, human resources, and strategic planning.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-building"></i>Business Environment</p>
+                    <p>Business Environment looks at the factors that influence business activities, including economic, legal, social, and technological factors. It helps students understand how businesses operate within a dynamic environment.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-lightbulb"></i>Marketing</p>
+                    <p>Marketing focuses on the strategies businesses use to attract and retain customers. Topics include market research, product development, pricing strategies, advertising, and digital marketing.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-chart-pie"></i>Finance</p>
+                    <p>Finance covers topics such as budgeting, financial statements, profitability analysis, and investment decisions. It teaches students how businesses manage their financial resources and make sound financial decisions.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-regular fa-clipboard"></i>Human Resources</p>
+                    <p>Human Resources focuses on managing employees, including recruitment, training, performance management, and employee relations. It is crucial for ensuring that businesses have a skilled and motivated workforce.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Economics -->
+        <div class="tab-pane" id="ot5">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Economics</h1>
+                    <p class="s2">Economics is the study of how individuals, businesses, and governments make choices to allocate resources. It explores topics like supply and demand, inflation, unemployment, economic growth, and international trade, providing insight into how economies function.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-money-bill-1"></i>Microeconomics</p>
+                    <p>Microeconomics studies individual economic agents like consumers and firms, focusing on decision-making, market structures, and pricing mechanisms. It helps explain how resources are allocated in small-scale economies.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-square-poll-vertical"></i>Macroeconomics</p>
+                    <p>Macroeconomics looks at the economy as a whole, addressing topics like national income, inflation, unemployment, and government policy. It helps us understand the larger economic forces at work in a country or region.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-dolly"></i>International Trade</p>
+                    <p>International trade focuses on the exchange of goods and services between countries. It examines trade policies, global markets, and the factors that influence global trade relations.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accounting -->
+        <div class="tab-pane" id="ot6">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Accounting</h1>
+                    <p class="s2">Accounting is the study of financial record-keeping, including the process of tracking income, expenses, and other financial activities. It involves preparing financial statements, analyzing business performance, and making decisions based on financial data.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-file-invoice-dollar"></i>Financial Statements</p>
+                    <p>Financial statements are reports that show the financial health of a business. They include the balance sheet, income statement, and cash flow statement, which help businesses and investors make informed decisions.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-money-bill-wave"></i>Budgeting</p>
+                    <p>Budgeting is the process of planning how a business will allocate its financial resources. It helps ensure that a business can meet its financial goals while avoiding overspending or waste.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-briefcase"></i>Taxation</p>
+                    <p>Taxation involves understanding the laws and rules surrounding taxes. It includes calculating taxes owed, preparing tax returns, and ensuring compliance with local and national tax regulations.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ICT -->
+        <div class="tab-pane" id="ot7">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">ICT</h1>
+                    <p class="s2">ICT (Information and Communication Technology) is the study of how computers and technology are used to create, store, and communicate information. It covers topics like computer hardware and software, digital communications, databases, and web development.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-desktop"></i>Hardware and Software</p>
+                    <p>ICT covers the components of a computer system, including the hardware (physical parts) and software (programs) that enable computers to function. Understanding these is essential for troubleshooting and improving computer performance.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-gear"></i>Web Development</p>
+                    <p>Web development involves creating websites and web applications using languages like HTML, CSS, and JavaScript. It includes design, layout, and functionality, as well as creating interactive and user-friendly interfaces.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-bars-progress"></i>Databases</p>
+                    <p>Databases are systems used to store and manage data. ICT students learn how to create, modify, and query databases to organize information and make it easily accessible and searchable.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Computer Science -->
+        <div class="tab-pane" id="ot8">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Computer Science</h1>
+                    <p class="s2">Computer Science is the study of algorithms, programming languages, software development, and the theory behind computers and computation. It focuses on designing efficient systems and solving complex problems using computing methods.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-screwdriver-wrench"></i>Programming</p>
+                    <p>Programming is at the heart of Computer Science. It involves writing code to create software, applications, and websites. Students learn languages such as Python, Java, and C++ to develop algorithms and solve problems.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-brain"></i>Algorithms</p>
+                    <p>Algorithms are step-by-step procedures for solving problems. Computer Science students learn how to design and analyze algorithms for efficiency and correctness, which is crucial for tasks like searching, sorting, and data processing.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-link"></i>Networks</p>
+                    <p>Networks involve connecting computers and devices to share information. Students learn about network protocols, security, and how data is transmitted across the internet and local area networks (LANs).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Geography -->
+        <div class="tab-pane" id="ot9">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Geography</h1>
+                    <p class="s2">Geography is the study of the Earth's physical features, the environment, and human activity. It examines how humans interact with the land and how factors like climate, population, and resources affect the world.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-mountain"></i>Physical Geography</p>
+                    <p>Physical Geography focuses on the Earth's natural features, such as mountains, rivers, weather patterns, and ecosystems. It helps us understand the forces that shape the Earth's surface and how these affect human activities.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-person"></i>Human Geography</p>
+                    <p>Human Geography looks at how human societies interact with the environment. Topics include urbanization, migration, population growth, and the distribution of resources and wealth.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-tree"></i>Environmental Issues</p>
+                    <p>Environmental issues examine the impact of human activity on the planet. Topics include climate change, deforestation, pollution, and sustainable development, emphasizing the importance of protecting the Earth's resources.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- History -->
+        <div class="tab-pane" id="ot10">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">History</h1>
+                    <p class="s2">History is the study of past events and their impact on the present and future. It explores major events, figures, and movements that shaped the world we live in today.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-mortar-pestle"></i>Ancient Civilizations</p>
+                    <p>Ancient civilizations like Mesopotamia, Egypt, and Rome played a major role in shaping human culture. History students explore the development of these societies, their achievements, and their legacies.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-robot"></i>Modern History</p>
+                    <p>Modern History covers events from the Renaissance to the present day, including the rise and fall of empires, the World Wars, and the social and political changes of the 20th century.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-file-invoice"></i>Historical Sources</p>
+                    <p>History involves analyzing primary and secondary sources to understand past events. Students learn how to interpret documents, artifacts, and oral histories to gain insights into historical periods.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sociology -->
+        <div class="tab-pane" id="ot11">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Sociology</h1>
+                    <p class="s2">Sociology is the study of society, social behavior, and the interactions between individuals and groups. It helps us understand how social institutions, such as family, education, and media, shape our lives.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-school"></i>Social Institutions</p>
+                    <p>Social institutions, such as family, education, and religion, play a significant role in shaping behavior and beliefs. Sociology students examine how these institutions influence individuals and groups in society.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-scale-balanced"></i>Social Issues</p>
+                    <p>Sociology also focuses on social issues like poverty, inequality, and crime. Students study how these problems arise, how society responds, and what solutions can be implemented.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-magnifying-glass"></i>Social Theory</p>
+                    <p>Social theory helps explain the dynamics of society. Sociologists study theorists like Karl Marx, Max Weber, and Emile Durkheim to understand how social structures influence behavior and societal change.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Psychology -->
+        <div class="tab-pane" id="ot12">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Psychology</h1>
+                    <p class="s2">Psychology is the study of the mind, behavior, and mental processes. It helps us understand why people think, feel, and act the way they do, exploring topics like cognition, emotion, development, and mental health.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-brain"></i>Cognitive Psychology</p>
+                    <p>Cognitive Psychology explores mental processes like perception, memory, and problem-solving. It helps us understand how we process information and make decisions.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-puzzle-piece"></i>Developmental Psychology</p>
+                    <p>Developmental Psychology studies how people change and grow throughout their lives, focusing on cognitive, emotional, and social development from childhood to adulthood.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-triangle-exclamation"></i>Abnormal Psychology</p>
+                    <p>Abnormal Psychology focuses on understanding mental disorders and abnormal behavior. It looks at the causes, symptoms, and treatments for conditions like depression, anxiety, and schizophrenia.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Global Perspectives -->
+        <div class="tab-pane" id="ot13">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Global Perspectives</h1>
+                    <p class="s2">Global Perspectives is an interdisciplinary subject that explores global issues from multiple viewpoints. It encourages students to develop critical thinking skills and understand the interconnectedness of the world.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-book-atlas"></i>Global Issues</p>
+                    <p>Global Issues examines topics like poverty, inequality, environmental sustainability, and human rights. Students learn about the causes, impacts, and potential solutions to these challenges.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-street-view"></i>Cultural Perspectives</p>
+                    <p>Cultural Perspectives explores how different cultures view and respond to global issues. Students examine the impact of cultural beliefs, values, and practices on global problems.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-brain"></i>Critical Thinking</p>
+                    <p>Critical thinking is key to Global Perspectives. Students learn how to analyze information, evaluate sources, and form reasoned opinions on global issues.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Art and Design -->
+        <div class="tab-pane" id="ot14">
+            <div class="row">
+               <div class="col-12">
+                        <h1 class="s1">Art and Design</h1>
+                        <p class="s2">Art and Design involves the creative process of producing visual works that communicate ideas, emotions, and perspectives. It helps students develop technical skills in drawing, painting, sculpture, and digital media.</p>
+                    </div>
+                    <div class="col-12">
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-marker"></i>Visual Art</p>
+                        <p>Visual Art focuses on creating artwork through mediums like painting, sculpture, and photography. Students explore different styles and techniques to express their creativity.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-wand-magic-sparkles"></i>Design</p>
+                        <p>Design involves creating functional and aesthetic products, including graphic design, product design, and architecture. Students learn to balance creativity with practicality in their design work.</p>
+                        <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-mobile-screen-button"></i>Digital Media</p>
+                        <p>Digital Media encompasses the use of digital tools and technologies to create visual content. Students learn to use software like Photoshop and Illustrator to create digital art, animations, and multimedia projects.</p>
+                    </div>
+            </div>
+        </div>
+        
+        <!--Music-->
+        <div class="tab-pane" id="ot15">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="s1">Music</h1>
+                    <p class="s2">IGCSE Music is a creative and expressive course where students explore the elements of music and develop performance and composition skills. The course covers a wide range of musical styles, enhancing students' appreciation of music from different cultures and time periods.</p>
+                </div>
+                <div class="col-12">
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-masks-theater"></i>Performance</p>
+                    <p>Performance focuses on developing students' skills in playing musical instruments or singing. Students will prepare and perform pieces of music, either as solo performers or as part of a group.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-music"></i>Composition</p>
+                    <p>Composition involves creating original pieces of music, allowing students to experiment with different musical styles and techniques. It helps develop creativity and critical thinking in music-making.</p>
+                    <p style="font-size: 25px; font-weight: bold;"><i class="fa-solid fa-ear-listen"></i><i class="fa-solid fa-chart-line"></i>Listening and Analysis</p>
+                    <p>Listening and analysis enables students to explore music from various genres, understanding its structure, instrumentation, and emotional impact. It helps students appreciate music on a deeper level and develop their analytical skills.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+      <!--footer start-->
+      <footer class="footer mt-5">  
+        <div class="footer-middle">  
+            <div class="container">  
+                <div class="row">  
+                    <div class="col-lg-3 col-md-6 col-sm-6">  
+                        <div class="footer-pad mt-3">  
+                            <h4>EduGuide</h4>  
+                            <ul class="list-unstyled">  
+                                <li><a href="#"></a></li>  
+                                <img src="image/star_logo.png" alt="" width="100px">
+                            </ul>  
+                            
+                        </div>  
+                    </div>  
+                    <div class="col-lg-3 col-md-6 col-sm-6">  
+                        <div class="footer-pad mt-3">  
+                            <h4>Useful links</h4>  
+                            <ul class="list-unstyled">  
+                                <li><a href="index.html">Home</a></li>  
+                                <li><a href="about.html">About us</a></li>  
+                                <li><a href="igcse_subjects.html">IGCSE Subjects</a></li>
+                                <li><a href="references.html">References</a></li> 
+                            </ul>  
+                        </div>  
+                    </div>  
+                    <div class="col-lg-3 col-md-6 col-sm-6">  
+                        <div class="footer-pad mt-3">  
+                            <h4>Legal</h4>  
+                            <ul class="list-unstyled">  
+                                <li><a href="">Privacy Policy</a></li>  
+                                <li><a href="">Terms of Service</a></li>  
+                                <li><a href="">Cookie Policy</a></li>  
+                            </ul>  
+                        </div>  
+                    </div>  
+                    <div class="col-lg-3 col-md-6 col-sm-6" style="color: white;">  
+                        <div class="footer-pad mt-3">
+                            <h4>Social Links</h4>
+                            <nav>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item ms-2"><a href="#"><i class="bi bi-twitter" style="color: white;"></i></a></li>
+                                    <li class="list-inline-item ms-3"><a href="#"><i class="bi bi-facebook" style="color: white;"></i></a></li>
+                                    <li class="list-inline-item ms-3"><a href="#"><i class="bi bi-linkedin" style="color: white;"></i></a></li>
+                                </ul>
+                            </nav>
+                        </div>          
+                    </div>  
+                </div>  
+            <div class="row">  
+                <div class="col-md-12 copy">  
+                    <p class="text-center">© 2024 EduGuide. All rights reserved.</p>  
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+    </footer>  
+    <script src="userpage.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
